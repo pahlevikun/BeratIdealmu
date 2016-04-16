@@ -1,0 +1,211 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/tools">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="outsideOverlay"
+        android:background="@color/Background"
+        android:id="@+id/lokasi_fab_scroll">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/lokasi_fab">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                android:elevation="2dp"
+                android:gravity="center">
+                <TextView
+                    android:text="Foto Profil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:typeface="sans"
+                    android:padding="8dp"
+                    android:textColor="#ffff"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:background="@color/ColorAccent"
+                    android:gravity="left|center"/>
+
+                <ImageView
+                    android:id="@+id/ivImage"
+                    android:layout_width="100dip"
+                    android:layout_height="100dip"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="13dp"
+                    android:src="@drawable/ic_avatar_p"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#ffffff"
+                android:elevation="2dp"
+                android:gravity="center">
+                <TextView
+                    android:text="Informasi Pribadi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:typeface="sans"
+                    android:padding="8dp"
+                    android:textColor="#ffff"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:background="@color/ColorAccent"
+                    android:gravity="left|center"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#ffff"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    android:id="@+id/info_pribadi">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:text="Nama"
+                            android:typeface="sans"
+                            android:textSize="12dp"
+                            android:textColor="@color/ColorAccent"
+                            android:padding="4dp"
+                            android:gravity="left|center"
+                            android:layout_margin="4dp"
+                            android:id="@+id/nama_judul" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=":"
+                            android:typeface="sans"
+                            android:textSize="12dp"
+                            android:textColor="@color/ColorAccent"
+                            android:gravity="center" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tidak terdaftar"
+                            android:typeface="sans"
+                            android:textSize="12dp"
+                            android:textColor="@color/ColorAccent"
+                            android:padding="8dp"
+                            android:gravity="center"
+                            android:id="@+id/nama_ktp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:text="Jenis Kelamin"
+                            android:typeface="sans"
+                            android:textSize="12dp"
+                            android:textColor="@color/ColorAccent"
+                            android:padding="4dp"
+                            android:gravity="left|center"
+                            android:layout_margin="4dp"
+                            android:id="@+id/jeniskelamin_judul" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=":"
+                            android:typeface="sans"
+                            android:textSize="12dp"
+                            android:textColor="@color/ColorAccent"
+                            android:gravity="center" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tidak terdaftar"
+                            android:typeface="sans"
+                            android:textSize="12dp"
+                            android:textColor="@color/ColorAccent"
+                            android:padding="8dp"
+                            android:gravity="center"
+                            android:id="@+id/jenis_ktp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:text="Golongan Darah"
+                            android:typeface="sans"
+                            android:textSize="12dp"
+                            android:textColor="@color/ColorAccent"
+                            android:padding="4dp"
+                            android:gravity="left|center"
+                            android:layout_margin="4dp"
+                            android:id="@+id/golongandarah_judul" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=":"
+                            android:typeface="sans"
+                            android:textSize="12dp"
+                            android:textColor="@color/ColorAccent"
+                            android:gravity="center" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tidak Terdaftar"
+                            android:typeface="sans"
+                            android:textSize="12dp"
+                            android:textColor="@color/ColorAccent"
+                            android:padding="8dp"
+                            android:gravity="center"
+                            android:id="@+id/golongandarah_ktp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            </LinearLayout>
+    </ScrollView>
+        <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_anchor="@+id/lokasi_fab_scroll"
+        app:layout_anchorGravity="bottom|right|end"
+        android:src="@drawable/ic_fab_ektp"
+        android:scaleType="centerCrop"
+        app:fab_colorNormal="@color/ColorAccent"
+        app:fab_colorPressed="@color/ColorPrimaryDark"
+        app:fab_colorRipple="@color/ColorPrimaryDark"
+        app:fab_shadowRadius="6dp"
+        app:fab_shadowXOffset="1dp"
+        app:fab_shadowYOffset="5dp"
+        app:fab_size="normal"
+        app:fab_showAnimation="@anim/fab_slide_in_from_right"
+        app:fab_hideAnimation="@anim/fab_slide_out_to_right" />
+    </android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:elevation="2dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="0dp"
+                android:text=" Desain dan Pengkodean"
+                android:textColor="#ffff"
+                android:background="@color/ColorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <RelativeLayout
+                android:id="@+id/about1"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/iconblue" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/icon"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Berat Idealmu"
+                        android:textColor="@color/ColorAccent"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="versi 1.0.0"
+                        android:textColor="@color/ColorAccent"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="&lt;CTProject/>"
+                        android:textColor="@color/ColorAccent"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="ctproject.developers@gmail.com"
+                        android:layout_marginTop="2dp"
+                        android:textColor="@color/ColorAccent"
+                        android:textSize="17sp" />
+                </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:elevation="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="0dp"
+                android:text=" Bantuan"
+                android:textColor="#ffff"
+                android:background="@color/ColorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Aplikasi Berat Idealmu adalah aplikasi untuk membantu Anda dalam menghitung berat badan ideal berdasarkan BMI dan rumus J.B. Devine. Aplikasi ini akan terus dikembangkan untuk membantu membuat berat badan menjadi ideal dengan disertai tips dan juga berita seputar kesehatan.\n\nUntuk melakukan perhitungan, silahkan memilih menu kalkuasi di halaman utama.\n\nUntuk melihat riwayat berat sebelumnya silahkan masuk halaman riwayat.\n\nBantu terus aplikasi Berat Idealmu dengan memberikan feedback kepada kami."
+                android:textColor="@color/ColorAccent"
+                android:textSize="17sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:elevation="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="0dp"
+                android:text=" Tim Pengembang"
+                android:textColor="#ffff"
+                android:background="@color/ColorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                android:text="Farhan Yuda Pahlevi sebagai Pemimpin\nBerat Idealmu.\n\nMuhammad Ryan R. sebagai Ketua\n&lt;CTProject/>\n\nWirya Ramadhan sebagai Wakil Ketua\n&lt;CTProject/>\n\nAnggota lain :\n- Ardityo P.M.\n- Bintang Monyka\n- Fikrie Anwar\n- Harapan Daeli\n- Haris Wijanarko\n- Malik Abdul Aziz\n- Nugraha Ramadhana\n- Putra Jaisul\n"
+                android:textColor="@color/ColorAccent"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
